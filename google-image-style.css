@@ -1,0 +1,132 @@
+#page-selecting {
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: right;
+
+}
+
+.google-search-txt {
+    margin-right: 20px;
+    font-size: 15px;
+    color: #3c4043;
+    text-decoration: none;
+}
+
+.google-search-txt:hover {
+    color: #3c4043;
+    text-decoration: underline;
+}
+
+
+.advanced-search-txt {
+    font-size: 15px;
+    color: #3c4043;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.advanced-search-txt:hover {
+    color: #3c4043;
+    text-decoration: underline;
+}
+
+
+.google-apps {
+    margin-right: 20px;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    
+}
+
+.search-bar-form {
+    text-align: center;
+    
+}
+
+.search-bar {
+    width: 487px;
+    height: 44px;
+     border: none;
+     outline: none;
+}
+
+.search-bar-container {
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    margin-top: 20px;
+    
+}
+.search-bar-container:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.btn-secondary {
+    margin-top: 15px;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .search-bar {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .search-bar {
+        width: 250px;
+    }
+}
+
+
+#footer {
+    background-color: #f2f2f2;
+    height: 46px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer-txt {
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+.footer-txt:hover {
+    color: #70757a;
+    text-decoration: underline;
+}
+
+.footer-section-1 {
+    margin-top: 7px;
+}
+
+.footer-section-2 {
+    display: inline;
+    margin-top: 7px;   
+}
+
+
+@media screen and (max-width: 680px) {
+    #footer {
+        flex-direction: column!important;
+        align-items: center;
+    }
+}
